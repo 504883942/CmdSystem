@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div ng-app="myapp" ng-c>
+<div ng-app="myapp" ng-controller="task">
     <h1>Host:1111</h1>
     <div class="panel  panel-default">
         <div class="panel-heading">
@@ -30,6 +30,9 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="home">
             <div class="list-group">
+                <a href="#" class="list-group-item" ng-repeat="item in historys">
+
+                </a>
                 <a href="#" class="list-group-item">
                     <h3 class="list-group-item-heading">List group item heading </h3>
                     <p>>60% Complomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplomplete<</p>

@@ -1,9 +1,0 @@
-{
-  "name": "cmd-system",
-  "version": "0.0.0",
-  "description": "CmdSystem",
-  "main": "server.js",
-  "author": {
-    "name": "lj"
-  }
-}
